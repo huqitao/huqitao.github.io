@@ -1,13 +1,13 @@
 ---
 layout:  post
 title:   "PPT转图片"
-date:    2015-09-26 02:27:44
+date:    2015-11-21 14:44:00
 categories: Tools
 ---
 
 ### PPT转图片解决办法
 
----
+
 使用环境：unbutu
 
 首先将 ppt 转换为 pdf，然后将 pdf 转换为 图片，具体步骤如下：
@@ -28,4 +28,3 @@ categories: Tools
 
 >会在当前文件夹下生成图片 cc为自己取的名字
 
----
