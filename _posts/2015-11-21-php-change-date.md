@@ -28,7 +28,7 @@ categories: PHP
 ###某天 + n天
 strtotime可以接受第二个参数，类型timestamp,为指定日期
 
-    //+1
+    //指定日期加一天
     echo date('Y-m-d', strtotime ("+1 day", strtotime('2011-11-01')));
 
     echo "今天:".date('Y-m-d H:i:s');
