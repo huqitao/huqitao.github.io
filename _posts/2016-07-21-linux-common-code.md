@@ -7,7 +7,7 @@ categories: Linux
 * content
 {:toc}
 
-##基本命令
+## 基本命令
 
  - ls 查看文件
  - ls -l 查看文件列表
@@ -17,7 +17,7 @@ categories: Linux
 
 ---
 
-##查看空间
+## 查看空间
 
  - df -h 查看当前系统空间
  - df -i 查看系统inodes使用情况 
@@ -26,25 +26,23 @@ categories: Linux
 
  ---
  
-##搜索进程
-
- - ps -aux | grep python 查询指定应用进程
+## 搜索进程
  
-    
+ - ps -aux | grep python 查询指定应用进程
 
 		root@ubuntu:/# ps -aux | grep python
 		root      7911  0.0  2.8 362524 115888 ?       Sl   03:17   0:02 /usr/bin/python /usr/bin/ubuntu-kylin-software-center-daemon
 		huqitao   7940  0.0  1.1 628456 45124 ?        Sl   03:17   0:00 python indicator-china-weather.py
 		root      9644  0.0  0.0  15988   988 pts/4    S+   04:53   0:00 grep --color=auto python
 
-- netstat -anp | grep 4000 查看制定端口
+ - netstat -anp | grep 4000 查看制定端口
 
         root@ubuntu:/# netstat -anp | grep 4000
         tcp        0      0 127.0.0.1:4000          0.0.0.0:*               LISTEN      9728/ruby       
 
 ---
 
-##结束进程
+## 结束进程
 
  - kill 4000 结束端口为4000的进程
  - kill -s 9 4000 强制结束端口为4000的进程
