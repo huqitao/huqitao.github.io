@@ -27,20 +27,18 @@ categories: Linux
  ---
  
 ## 搜索进程
-ps -aux | grep python 查询指定应用进程
+ - ps -aux | grep python 查询指定应用进程
+ - netstat -anp | grep 4000 查看制定端口
 
 
 		root@ubuntu:/# ps -aux | grep python
-		root      7911  0.0  2.8 362524 115888 ?       Sl   03:17   0:02 /usr/bin/python /usr/bin/ubuntu-kylin-software-center-daemon
-		huqitao   7940  0.0  1.1 628456 45124 ?        Sl   03:17   0:00 python indicator-china-weather.py
-		root      9644  0.0  0.0  15988   988 pts/4    S+   04:53   0:00 grep --color=auto python
-
-
-netstat -anp | grep 4000 查看制定端口
+		root     7911  0.0  2.8 362524 115888 ?      Sl  03:17  0:02 /usr/bin/python /usr/bin/ubuntu-kylin-software-center-daemon
+		huqitao  7940  0.0  1.1 628456 45124 ?       Sl  03:17  0:00 python indicator-china-weather.py
+		root     9644  0.0  0.0  15988   988 pts/4   S+  04:53  0:00 grep --color=auto python
 
 
 		root@ubuntu:/# netstat -anp | grep 4000
-		tcp        0      0 127.0.0.1:4000          0.0.0.0:*               LISTEN      9728/ruby
+		tcp        0      0 127.0.0.1:4000    0.0.0.0:*     LISTEN      9728/ruby
 
 ---
 
