@@ -28,7 +28,7 @@ categories: Linux
  
 ## 搜索进程
 
-ps -aux | grep python 查询指定应用进程
+###ps -aux | grep python 查询指定应用进程
 
 
 	root@ubuntu:/# ps -aux | grep python
@@ -37,7 +37,7 @@ ps -aux | grep python 查询指定应用进程
 	root      9644  0.0  0.0  15988   988 pts/4    S+   04:53   0:00 grep --color=auto python
 
 
-netstat -anp | grep 4000 查看制定端口
+###netstat -anp | grep 4000 查看制定端口
 
 
        	root@ubuntu:/# netstat -anp | grep 4000
