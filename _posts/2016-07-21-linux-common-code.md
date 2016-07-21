@@ -24,11 +24,11 @@ categories: Linux
  - du -h 查看当前目录使用情况 （做文件轮询）
  - du -sh 查看当前目录使用情况（只看结果，不做文件轮询）
 
- ---
+---
  
 ## 搜索进程
- - ps -aux | grep python 查询指定应用进程
- - netstat -anp | grep 4000 查看制定端口
+ps -aux | grep python 查询指定应用进程
+netstat -anp | grep 4000 查看制定端口
 
 
 		root@ubuntu:/# ps -aux | grep python
