@@ -35,7 +35,7 @@ categories: Linux
 		huqitao   7940  0.0  1.1 628456 45124 ?        Sl   03:17   0:00 python indicator-china-weather.py
 		root      9644  0.0  0.0  15988   988 pts/4    S+   04:53   0:00 grep --color=auto python
 
-
+---
 
   netstat -anp | grep 4000 查看制定端口
 
