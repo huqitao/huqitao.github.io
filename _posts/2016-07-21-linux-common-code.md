@@ -27,8 +27,8 @@ categories: Linux
  ---
  
 ## 搜索进程
- 
 > ps -aux | grep python 查询指定应用进程
+
 
 		root@ubuntu:/# ps -aux | grep python
 		root      7911  0.0  2.8 362524 115888 ?       Sl   03:17   0:02 /usr/bin/python /usr/bin/ubuntu-kylin-software-center-daemon
