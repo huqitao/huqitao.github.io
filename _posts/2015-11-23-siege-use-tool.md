@@ -51,7 +51,7 @@ delay=0，更准确的压力测试，而不是功能测试
 
     siege -H &quot;Content-Type:application/json&quot; -c 200 -r 100 -f urls.txt -i -b
 
-##Siege输出结果说明
+## Siege输出结果说明
 
 Transactions: 总共测试次数
 
@@ -73,7 +73,7 @@ Successful transactions: 成功的请求数
 
 Failed transactions: 失败的请求数
 
-##Siege使用的一些总结
+## Siege使用的一些总结
 
 1，发送post请求时，url格式为：http://www.xxxx.com/ POST p1=v1&p2=v2
 
