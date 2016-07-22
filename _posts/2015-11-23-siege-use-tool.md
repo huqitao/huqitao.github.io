@@ -9,11 +9,11 @@ categories: Tools
 
 Siege是linux下的一个web系统的压力测试工具，支持多链接，支持get和post请求，可以对web系统进行多并发下持续请求的压力测试。
 
-##安装 Siege
+## 安装 Siege
 
     apt-get install siege 
     
-##Siege命令常用参数
+## Siege命令常用参数
 
 -c 200 指定并发数200
 
