@@ -28,19 +28,24 @@ categories: Git
 
 ## Git 使用
 
-### 常用命令
+### `常用命令`
 
-#### 设置本地目录
+**设置本地目录**
 git remote add origin ###/##.git
 
-#### 提交代码
+**提交代码**
+
 git add .   添加全部要提交的文件
+
 git commit -m '提交的描述'   提交代码到暂存区
+
 git push origin master   提交到远程目录
 
-#### 拉取代码
+**拉取代码**
+
 git pull origin master
 
-#### 还原版本
+**还原版本**
 git log 查看提交版本
+
 git reset --hard ####(版本号，commit: 后面的字符串，或者复制github的commit:字符串)
