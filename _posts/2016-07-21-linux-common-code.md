@@ -34,6 +34,10 @@ ps -aux | grep python 查询指定应用进程
     huqitao  7940  0.0  1.1 628456 45124 ?       Sl  03:17  0:00 python indicator-china-weather.py
     root     9644  0.0  0.0  15988   988 pts/4   S+  04:53  0:00 grep --color=auto python
 
+netstat -anp | grep 4000 查看指定端口
+
+    root@ubuntu:/# netstat -anp | grep 4000
+    tcp        0      0 127.0.0.1:4000    0.0.0.0:*     LISTEN      9728/ruby
 
 ---
 
@@ -43,9 +47,3 @@ ps -aux | grep python 查询指定应用进程
  - kill -s 9 4000 强制结束端口为4000的进程
  - killall php-cgi 结束全部 php-cgi的程序
  - pkill -9 php-cgi 强制结束 php-cgi 的程序
-
-
-netstat -anp | grep 4000 查看指定端口
-
-    root@ubuntu:/# netstat -anp | grep 4000
-    tcp        0      0 127.0.0.1:4000    0.0.0.0:*     LISTEN      9728/ruby
