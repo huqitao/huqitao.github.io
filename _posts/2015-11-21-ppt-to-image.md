@@ -1,7 +1,6 @@
 ---
 layout:  post
 title:   "PPT转图片"
-date:    2015-11-21 14:44:00
 categories: Tools
 ---
 
@@ -22,9 +21,9 @@ categories: Tools
 
 5，运行命令 unoconv 1234.ppt 
 
->(根据服务器配置不同)大概等3~10秒 会在当前目录生成 1234.pdf 文件
+> (根据服务器配置不同)大概等3~10秒 会在当前目录生成 1234.pdf 文件
 
 6，运行命令 convert 1234.pdf cc.jpg 
 
->会在当前文件夹下生成图片 cc为自己取的名字
+> 会在当前文件夹下生成图片 cc为自己取的名字
 

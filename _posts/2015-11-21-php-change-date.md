@@ -1,13 +1,12 @@
 ---
 layout:  post
 title:   "PHP时间格式转换"
-date:    2015-11-21 15:03:00
 categories: PHP
 ---
 * content
 {:toc}
 
-###基本转换
+### 基本转换
     
     //默认时区
     date_default_timezone_set('PRC'); 
@@ -25,7 +24,7 @@ categories: PHP
     echo "十年后:".date("Y-m-d",strtotime("+10 year"));
 
 
-###某天 + n天
+### 某天 + n天
 strtotime可以接受第二个参数，类型timestamp,为指定日期
 
     //指定日期加一天
@@ -45,7 +44,7 @@ strtotime可以接受第二个参数，类型timestamp,为指定日期
     */
     echo date('Y-m-d H:i:s',strtotime("+1 day +1 hour +1 minute");
 
-###常用日期函数
+### 常用日期函数
 下面这些代码是一些常用的日期处理函数了，可以两个时间的日期加减，两日期之差,日期转换时间截等。
 
     //日期天数相加函数
@@ -71,7 +70,7 @@ strtotime可以接受第二个参数，类型timestamp,为指定日期
     }
 
 
-###计算两日期之差
+### 计算两日期之差
 
     /*
      *下面函数计算两日期之差
