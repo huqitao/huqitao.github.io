@@ -31,6 +31,8 @@ icon: glyphicon-heart
 
 [7demo](http://7demo.github.io/)
 
+[王磊-资深程序员]（http://www.cnblogs.com/vipstone/）
+
 Comment below to exchange link with me.  
 
 ---
